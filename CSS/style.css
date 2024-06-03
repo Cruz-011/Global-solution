@@ -1,0 +1,222 @@
+body {
+    background-color: #100e17;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .img-logo {
+    margin-top: -50px;
+    width: 200px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .profile img {
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 50px;
+    height: auto;
+  }
+  
+  header, .menu {
+    width: 100%;
+  }
+  
+  .menu {
+    margin-top: -35px;
+    text-decoration: underline;
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .search-icon {
+    position: relative;
+    width: 85%;
+    margin-left: 130px;
+  }
+  
+  .header-content form input {
+    color: rgb(0, 0, 0);
+    height: 42px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    margin-left: -50px;
+  }
+  
+  .header-content form {
+    width: 85%;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .form-control {
+    display: block;
+    width: 100%;
+  }
+  
+  .header-inner {
+    align-items: center;
+    width: 100%;
+  }
+  
+  .header-content {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  
+  .dashboard {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .dashboard section {
+    width: 500px;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .grafico {
+    width: 100%;
+    background-color: #100e17;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sair input[type="button"] {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .location-selector {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .grafico-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .grafico-section {
+    margin: 10px;
+    flex: 1 1 45%;
+  }
+  
+  .grafico {
+    width: 90%;
+    max-width: 600px;
+    height: 250px;
+  }
+  
+  .graficos {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  @media (max-width: 1200px) {
+    .search-icon {
+      margin-left: 0;
+      width: 100%;
+    }
+  
+    .header-content form {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .menu ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .menu ul li {
+      margin: 10px 0;
+    }
+  
+    .search-icon {
+      margin-left: 0;
+      width: 100%;
+    }
+  
+    .header-content form input {
+      width: 100%;
+      margin-left: 0;
+    }
+  
+    .dashboard section {
+      width: 90%;
+      max-width: 100%;
+    }
+  
+    .grafico-section {
+      flex: 1 1 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .menu {
+      font-size: 18px;
+      margin-top: 0;
+    }
+  
+    .location-selector {
+      font-size: 16px;
+    }
+  
+    .graficos {
+      font-size: 24px;
+    }
+  
+    .img-logo {
+      width: 150px;
+    }
+  }
+  
