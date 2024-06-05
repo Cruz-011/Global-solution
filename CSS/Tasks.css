@@ -100,6 +100,104 @@ body {
     max-width: 1300px;
     margin: 0 auto;
   }
+
+  .bonus {
+    background-color: #1a1725;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 1250px;
+    margin: 20px auto;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .bonus h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .bonus h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .bonus p, .bonus ul, .bonus ol {
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .bonus ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .bonus ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+  }
+  
+  @media (max-width: 1200px) {
+    .search-icon {
+      margin-left: 0;
+      width: 100%;
+    }
+  
+    .header-content form {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .menu ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .menu ul li {
+      margin: 10px 0;
+    }
+  
+    .search-icon {
+      margin-left: 0;
+      width: 100%;
+    }
+  
+    .header-content form input {
+      width: 100%;
+      margin-left: 0;
+    }
+  
+    .bonus {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .menu {
+      font-size: 18px;
+      margin-top: 0;
+    }
+  
+    .img-logo {
+      width: 150px;
+    }
+  
+    .profile img {
+      width: 40px;
+    }
+  
+    .search-icon {
+      margin-left: 0;
+      width: 100%;
+    }
+  
+    .bonus {
+      width: 95%;
+    }
+  }
   
   .tasks-container {
     display: flex;
