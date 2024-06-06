@@ -150,6 +150,11 @@ body {
   .noticia .texto a:hover {
     text-decoration: underline;
   }
+
+  .footer {
+    padding: 20px;
+    text-align: center;
+}
   
   @media (max-width: 1200px) {
     .search-icon {

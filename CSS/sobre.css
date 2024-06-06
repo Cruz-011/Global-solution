@@ -149,7 +149,11 @@ nav ul li a {
   background-color: #45a049;
 }
 
-/* Media Queries for Responsiveness */
+.footer {
+  padding: 20px;
+  text-align: center;
+}
+
 @media (max-width: 1200px) {
   .search-icon {
       margin-left: 0;

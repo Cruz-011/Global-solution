@@ -251,6 +251,11 @@ body {
   .start-button:hover {
     background-color: #218838;
   }
+
+  .footer {
+    padding: 20px;
+    text-align: center;
+}
   
   @media (max-width: 1200px) {
     .search-icon {

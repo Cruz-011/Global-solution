@@ -157,6 +157,10 @@ body {
     font-size: 30px;
     font-family: 'Open Sans', sans-serif;
   }
+  .footer {
+    padding: 20px;
+    text-align: center;
+}
   
   @media (max-width: 1200px) {
     .search-icon {

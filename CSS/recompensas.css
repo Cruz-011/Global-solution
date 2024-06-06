@@ -146,8 +146,12 @@ body {
   .card button:hover {
       background-color: #45a049;
   }
+
+  .footer {
+    padding: 20px;
+    text-align: center;
+}
   
-  /* Media Queries for Responsiveness */
   @media (max-width: 1200px) {
       .search-icon {
           margin-left: 0;
